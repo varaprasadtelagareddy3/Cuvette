@@ -1,0 +1,55 @@
+.link {
+    color: red;
+    text-decoration: none;
+    padding: 15px;
+    
+}
+
+.link:hover {
+    background-color: red;
+    color: blue;
+}
+
+.input:focus {
+    background-color: red;
+    color: black;
+    
+}
+
+.studentList {
+    list-style-type: square;
+    color: magenta;
+    padding: 20px;
+    margin: 20px;
+    border-bottom: dotted 5px red;
+    
+
+}
+
+.studentList .student:nth-child(odd) {
+    background-color: yellow;
+    color: black;
+}
+
+/* p {
+    color: rgb(76, 0, 255); 
+} */
+
+div.container p {
+    color: green;
+}
+
+.container + h1 {
+    color: red;
+    border-bottom: dotted;
+}
+
+/* * {
+    border: dashed 1px grey;
+} */
+
+.wrapper  {
+    color: purple;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}

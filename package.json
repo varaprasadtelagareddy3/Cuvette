@@ -1,0 +1,25 @@
+{
+  "name": "cuvette",
+  "version": "1.0.0",
+  "description": "this is for Cuvette Sep batch",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varaprasadtelagareddy3/Cuvette.git"
+  },
+  "keywords": [
+    "cuvette"
+  ],
+  "author": "Varaprasad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varaprasadtelagareddy3/Cuvette/issues"
+  },
+  "homepage": "https://github.com/varaprasadtelagareddy3/Cuvette#readme",
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  }
+}

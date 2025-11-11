@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./BoxMode.css">
+</head>
+<body>
+    <form >
+        <label for="firstName"> First Name: </label>
+        <input type='text' placeholder="Enter username"> 
+        <br/>
+        <br/>
+        <label for="lastName"> Last Name: </label>
+        <input type='text' placeholder="Last Name" required minlength="5">
+        <br/>
+        <br/>
+        <fieldset  class="gender">
+            <legend>Gender </legend>
+            <label>
+            <input type="radio" name="gender" value="Male"> Male
+        </label>
+        <label>
+            <input type="radio" name="gender" value="Female"> Female
+        </label>
+        </fieldset>
+        <fieldset  class="gender">
+            <legend>Interests </legend>
+            <label>
+            <input type="checkbox" name="interests" value="HTML"> HTML
+        </label>
+        <label>
+            <input type="Checkbox" name="interests" value="CSS"> CSS
+        </label>
+        </fieldset>
+        <br>
+        <br>
+        <label for="country"> Country: </label>
+        <select name="country" >
+            <option value="India"> India </option>
+            <option value="USA"> USA </option>
+            <option value="UK"> UK </option>
+            <option value="Canada"> Canada </option>
+        </select>
+        <br>
+        <br>
+        
+        <br/>
+        <label for="Password">Password: </label>
+        <input type="password" > 
+        <br/>
+        <br/>
+
+        <button type="submit">Submit</button>
+
+    </form>
+    <br>
+    <br>
+    <table class="table" >
+        <thead>
+            <tr>
+                <th> Name </th>
+                <th >Age   </th>
+                <th> Email </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Varaprasad  </td>
+                <td>21</td>
+                <td>prasad@.com</td>
+            </tr>
+            <tr>
+                <td>Varaprasad  </td>
+                <td>21</td>
+                <td>prasad@.com</td>
+            </tr>
+            <tr>
+                <td>Varaprasad  </td>
+                <td>21</td>
+                <td>prasad@.com</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+            </tr>
+        </tfoot>
+    </table>
+     
+</body>
+</html>

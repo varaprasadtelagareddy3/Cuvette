@@ -1,0 +1,19 @@
+.fruit {
+    background-color: orange;
+    font-size: 50px;
+}
+#h5 {
+    color: white;
+}
+
+a:visited {
+    background-color: yellow;
+}
+
+.mod:hover {
+    background-color: purple;
+}
+
+.fruit li:first-child {
+    background-color: red;
+}
