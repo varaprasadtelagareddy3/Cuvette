@@ -2,9 +2,10 @@
   "name": "cuvette",
   "version": "1.0.0",
   "description": "this is for Cuvette Sep batch",
-  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "npx parcel public/index.html",
+    "build" : "npx parcel build public/index.html"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,9 @@
   "homepage": "https://github.com/varaprasadtelagareddy3/Cuvette#readme",
   "devDependencies": {
     "parcel": "^2.16.1"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   }
 }
