@@ -1,5 +1,5 @@
 
-import Button from "./src/components/button";
+import Button from "./ReactBTS/components/button";
 
 const App = () => {
     console.log("MOdda");
